@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 
 def position_taken?(board, num)
-  if board[num.to_i].strip == "" || board[num.to_i] == nil
+  if board[num.to_i] == "" || nil
     false
   else
     true
